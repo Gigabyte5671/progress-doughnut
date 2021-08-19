@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gigabyte5671">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <main>
+      
+      <div style="flex-direction:column;">
+        <div class="doughnut">
+          <span class="doughnut-outerRing"></span>
+          <span id="doughnut-bar"></span>
+          <span class="doughnut-innerRing"></span>
+          <div class="doughnut-text"><p id="doughnut-text">0&deg;</p></div>
+        </div>
+        
+        <input id="input" type="range" min="0" max="360" value="0">
+        <p id="other-text" style="position:absolute;top:5px;left:5px;color:white;"></p>
+      </div>
+      
+    </main>
+  </body>
+  
+  <script src="progress-doughnut.js"></script>
+</html>
